@@ -1,5 +1,5 @@
 {
-    const ArrayofNumbers = (param: number[]):number =>{
+    const sumArray = (param: number[]):number =>{
     
         let total = 0;
         param.forEach((value: number):number =>{
@@ -9,6 +9,6 @@
         return total;
     }
     
-    const values = ArrayofNumbers([1,2,3,4]);
+    const values = sumArray([1,5,3,100]);
     console.log(values);
 }

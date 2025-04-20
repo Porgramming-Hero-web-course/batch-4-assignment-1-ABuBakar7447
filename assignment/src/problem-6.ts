@@ -5,7 +5,7 @@
         email: string;
     }
 
-    const Person = {
+    const myProfile = {
         name: "X",
         age: 20,
         email: "x@gmail.com",
@@ -15,5 +15,5 @@
         return { ...param1, ...param2 };
     };
 
-    console.log(updateProfile(Person, { age: 30 }));
+    console.log(updateProfile(myProfile, { age: 30 }));
 }

@@ -3,15 +3,15 @@
         return obj[key];
     };
 
-    type person = {
+    type personType = {
         name: string;
         age: number;
     };
 
-    const person1: person = {
+    const person: personType = {
         name: "Alice",
         age: 20,
     };
 
-    console.log(getProperty(person1, "age"));
+    console.log(getProperty(person, "name"));
 }
